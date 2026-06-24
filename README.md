@@ -1,30 +1,318 @@
-   <!DOCTYPE html>
+        .btn-outline { background: r<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>INAYA ENTERPRISES - Authorised Currency Exchange | INR ↔ BDT ↔ USD</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M/S INAYA ENTERPRISE - Trusted Money Exchange</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
         body {
-            font-family: 'Inter', sans-serif;
-            background: #f8fafc;
-            color: #0f172a;
-            scroll-behavior: smooth;
-            line-height: 1.6;
+            font-family: 'Poppins', sans-serif;
         }
-        a { text-decoration: none; color: inherit; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        
-        .section-title { font-size: 2.4rem; font-weight: 800; text-align: center; margin-bottom: 10px; color: #1e3a8a; }
-        .section-subtitle { text-align: center; color: #64748b; margin-bottom: 48px; font-size: 1.1rem; }
-        
-        .btn { display: inline-block; padding: 14px 36px; border-radius: 50px; font-weight: 600; font-size: 1rem; transition: 0.3s; border: none; cursor: pointer; text-align: center; }
-        .btn-primary { background: linear-gradient(135deg, #2563eb, #1d4ed8); color: #fff; }
-        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,99,235,0.35); }
-        .btn-outline { background: rgba(255,255,255,0.15); color: #fff; border: 2px solid #fff; backdrop-filter: blur(5px); }
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="bg-blue-600 text-white p-2 rounded-lg font-bold text-lg tracking-wider">IE</div>
+                <span class="font-bold text-xl text-blue-900 tracking-wide">M/S INAYA ENTERPRISE</span>
+            </div>
+            <a href="https://wa.me/918942918343" target="_blank" class="bg-green-550 bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center space-x-2 hover:bg-green-700 transition">
+                <i class="fab fa-whatsapp text-lg"></i>
+                <span class="hidden sm:inline">WhatsApp Support</span>
+            </a>
+        </div>
+    </header>
+
+    <section class="hero-gradient text-white text-center py-16 px-4 relative overflow-hidden">
+        <div class="max-w-3xl mx-auto relative z-10">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 tracking-tight uppercase">M/S INAYA ENTERPRISE</h1>
+            <p class="text-lg sm:text-xl text-blue-200 mb-2 font-medium">নির্ভরযোগ্য ও দ্রুততম সময়ে টাকা বিনিময় করুন</p>
+            <h2 class="text-2xl sm:text-4xl font-bold text-yellow-400 mb-8 tracking-wide">Trusted Foreign Money Exchange</h2>
+            <p class="text-sm sm:text-base text-gray-300 max-w-xl mx-auto mb-8">
+                We provide standard, reliable exchange services across INR, BDT, and USD. Fully professional with genuine transactions and instant fulfillment.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="https://wa.me/918942918343" target="_blank" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-full flex items-center justify-center space-x-2 shadow-lg transform hover:-translate-y-0.5 transition">
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    <span>WhatsApp Chat</span>
+                </a>
+                <a href="#rates-section" class="w-full sm:w-auto border-2 border-white/30 hover:border-white text-white font-semibold px-8 py-3 rounded-full transition bg-white/5 backdrop-blur-sm">
+                    Check Today's Rates
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-md mx-auto -mt-8 px-4 relative z-20">
+        <div class="bg-gradient-to-r from-red-500 to-rose-600 text-white rounded-2xl p-6 text-center shadow-2xl border border-red-400/20">
+            <p class="text-xs font-bold tracking-widest uppercase text-red-100 mb-2">TODAY'S HOT TO EARN RATE</p>
+            <div class="flex justify-center items-center space-x-4 mb-3">
+                <i class="fas fa-money-bill-wave text-3xl text-white/90"></i>
+                <span class="text-xl font-bold">100 BDT</span>
+                <i class="fas fa-exchange-alt text-lg text-red-200"></i>
+                <span class="text-xl font-bold">INR</span>
+            </div>
+            <div class="text-4xl sm:text-5xl font-black my-2">₹77.20</div>
+            <span class="inline-block bg-black/20 text-xs px-3 py-1 rounded-full text-red-500 bg-white font-medium mt-2">
+                <i class="fas fa-bolt mr-1"></i> Best Rate Guaranteed
+            </span>
+        </div>
+    </section>
+
+    <section id="rates-section" class="max-w-4xl mx-auto px-4 py-16">
+        <div class="text-center mb-10">
+            <h2 class="text-3xl font-bold text-blue-950 mb-2">Today's Exchange Rates</h2>
+            <p class="text-sm text-gray-500">Real-time daily rates. Contact our support for a hassle-free, instant transfer.</p>
+        </div>
+
+        <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-6">
+            <div class="flex justify-between items-center border-b pb-4 mb-4">
+                <h3 class="font-bold text-lg text-gray-800 flex items-center">
+                    <span class="w-2 h-2 bg-green-500 rounded-full mr-2 animate-pulse"></span>
+                    Market Watchlist 2026
+                </h3>
+                <span class="text-xs text-gray-400 bg-gray-100 px-2 py-1 rounded">Live Updated</span>
+            </div>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="text-xs uppercase text-gray-400 border-b">
+                            <th class="pb-3 font-semibold">Currency Pair</th>
+                            <th class="pb-3 font-semibold text-center">We Buy</th>
+                            <th class="pb-3 font-semibold text-right">We Sell</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100 text-sm sm:text-base">
+                        <tr class="hover:bg-gray-50/50 transition">
+                            <td class="py-4 font-medium flex items-center space-x-2">
+                                <span class="font-semibold text-gray-700">BDT to INR</span>
+                            </td>
+                            <td class="py-4 text-center text-green-600 font-semibold">₹77.20</td>
+                            <td class="py-4 text-right text-blue-600 font-semibold">₹78.50</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50/50 transition">
+                            <td class="py-4 font-medium">USD to INR</td>
+                            <td class="py-4 text-center text-green-600 font-semibold">₹83.40</td>
+                            <td class="py-4 text-right text-blue-600 font-semibold">₹84.80</td>
+                        </tr>
+                        <tr class="hover:bg-gray-50/50 transition">
+                            <td class="py-4 font-medium">USD to BDT</td>
+                            <td class="py-4 text-center text-green-600 font-semibold">৳117.50</td>
+                            <td class="py-4 text-right text-blue-600 font-semibold">৳119.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-blue-50/60 py-16 px-4 border-t border-b border-blue-100/50">
+        <div class="max-w-md mx-auto bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-blue-100">
+            <div class="text-center mb-6">
+                <h3 class="text-2xl font-bold text-blue-950 mb-1">Smart Live Conversion</h3>
+                <p class="text-xs text-gray-500">Multiply individual expected values instantly across different currencies</p>
+            </div>
+
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">You Send</label>
+                    <input type="number" id="sendAmount" value="5000" class="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl font-semibold text-lg focus:outline-none focus:border-blue-500 focus:bg-white transition">
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">From Currency</label>
+                        <select id="fromCurrency" class="w-full px-3 py-3 bg-gray-50 border border-gray-200 rounded-xl font-medium text-sm focus:outline-none focus:border-blue-500 transition">
+                            <option value="BDT">BDT - Bangladesh</option>
+                            <option value="INR">INR - Indian Rupee</option>
+                            <option value="USD">USD - US Dollar</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">To Currency</label>
+                        <select id="toCurrency" class="w-full px-3 py-3 bg-gray-50 border border-gray-200 rounded-xl font-medium text-sm focus:outline-none focus:border-blue-500 transition">
+                            <option value="INR" selected>INR - Indian Rupee</option>
+                            <option value="BDT">BDT - Bangladesh</option>
+                            <option value="USD">USD - US Dollar</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="pt-4 text-center border-t border-gray-100">
+                    <p class="text-xs font-medium text-gray-400 uppercase">Estimated Total Transfer Here</p>
+                    <div id="resultAmount" class="text-3xl font-black text-blue-600 my-1">₹3,560.00</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-4 py-16">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-blue-950 mb-2">Professional Exchange Options</h2>
+            <p class="text-sm text-gray-500 max-w-md mx-auto">We understand and analyze your transfer preferences with unique local custom solutions.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition text-center flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">INR to Indian Bank Rupee</h3>
+                    <p class="text-xs text-gray-500 leading-relaxed mb-4">সবচেয়ে কম সময়ে যেকোনো ভারতীয় ব্যাংকে দ্রুত ফান্ড ট্রান্সফার ও ক্যাশ আউট সুবিধা পাবেন।</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-2 mt-auto">
+                    <span class="bg-blue-50 text-blue-600 text-xs font-medium px-2.5 py-1 rounded">IMPS</span>
+                    <span class="bg-blue-50 text-blue-600 text-xs font-medium px-2.5 py-1 rounded">NEFT/RTGS</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition text-center flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Bangladeshi Mobile Wallet</h3>
+                    <p class="text-xs text-gray-500 leading-relaxed mb-4">বিকাশ, রকেট, নগদের মাধ্যমে নিরাপদে এবং সর্বোচ্চ রেটে যেকোনো সময় রেমিট্যান্স বা ব্যক্তিগত লেনদেন সম্পন্ন করুন।</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-2 mt-auto">
+                    <span class="bg-pink-50 text-pink-600 text-xs font-medium px-2.5 py-1 rounded">bKash</span>
+                    <span class="bg-orange-50 text-orange-600 text-xs font-medium px-2.5 py-1 rounded">Nagad</span>
+                    <span class="bg-purple-50 text-purple-600 text-xs font-medium px-2.5 py-1 rounded">Rocket</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition text-center flex flex-col justify-between">
+                <div>
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4 text-xl">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-gray-800 mb-2">Secure Counter Assistance</h3>
+                    <p class="text-xs text-gray-500 leading-relaxed mb-4">সরাসরি আমাদের ব্রাঞ্চে এসে ক্যাশ টু ক্যাশ নিরাপদ উপায়ে কারেন্সি এক্সচেঞ্জ করার বিশ্বস্ত সুবিধা।</p>
+                </div>
+                <div class="flex flex-wrap justify-center gap-2 mt-auto">
+                    <span class="bg-green-50 text-green-600 text-xs font-medium px-2.5 py-1 rounded">Cash Deal</span>
+                    <span class="bg-green-50 text-green-600 text-xs font-medium px-2.5 py-1 rounded">Secure Office</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-md mx-auto px-4 pb-16 text-center">
+        <div class="bg-white rounded-2xl shadow-md border border-gray-100 p-6">
+            <h3 class="text-xl font-bold text-blue-950 mb-1">Official Branch Helpdesk</h3>
+            <p class="text-xs text-gray-400 mb-6">Connect with our executives to receive specialized support for final rate adjustments</p>
+            
+            <div class="space-y-4">
+                <a href="https://maps.google.com" target="_blank" class="flex items-center justify-between p-3 bg-gray-50 hover:bg-gray-100 rounded-xl transition group">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-sm font-bold text-gray-800">Branch Locator</p>
+                            <p class="text-xs text-gray-400">Bongaon, West Bengal, India</p>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right text-gray-300 group-hover:text-blue-600 transition"></i>
+                </a>
+
+                <div class="p-4 border border-dashed border-gray-200 rounded-xl">
+                    <p class="text-xs font-semibold text-gray-400 uppercase mb-2">WhatsApp Direct Support</p>
+                    <a href="https://wa.me/918942918343" target="_blank" class="text-green-600 font-bold text-lg flex items-center justify-center space-x-2 hover:underline">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                        <span>+91 89429 18343</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-900 text-gray-400 text-sm py-12 px-4 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <h4 class="text-white font-bold text-base mb-3">M/S INAYA ENTERPRISE</h4>
+                <p class="text-xs leading-relaxed text-gray-500">
+                    Trusted and licensed foreign exchange provider in India. Offering professional, secure, and instant remittance or cash exchange at best market values.
+                </p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-base mb-3">Quick Navigation</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" class="hover:text-white transition">Home Base</a></li>
+                    <li><a href="#rates-section" class="hover:text-white transition">Live Rates</a></li>
+                    <li><a href="https://wa.me/918942918343" target="_blank" class="hover:text-white transition">Smart Calculator</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-base mb-3">Compliance & Info</h4>
+                <ul class="space-y-2 text-xs">
+                    <li><a href="#" class="hover:text-white transition">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:text-white transition">Terms & Security</a></li>
+                    <li><p class="text-gray-500"><i class="fas fa-building mr-1"></i> Authorised Money Changer Station</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-5xl mx-auto border-t border-slate-800/60 pt-6 text-center text-xs text-gray-600">
+            &copy; 2026 M/S INAYA ENTERPRISE. All Rights Reserved. Designed professionally for secure trade transactions.
+        </div>
+    </footer>
+
+    <script>
+        const sendAmount = document.getElementById('sendAmount');
+        const fromCurrency = document.getElementById('fromCurrency');
+        const toCurrency = document.getElementById('toCurrency');
+        const resultAmount = document.getElementById('resultAmount');
+
+        // Fixed Mock Exchange Rates for 2026 Simulation
+        const rates = {
+            'BDT_INR': 0.712,  // 1 BDT = 0.712 INR
+            'INR_BDT': 1.285,  // 1 INR = 1.285 BDT
+            'USD_INR': 83.40,
+            'INR_USD': 0.012,
+            'USD_BDT': 117.50,
+            'BDT_USD': 0.0085
+        };
+
+        function calculateConversion() {
+            const amount = parseFloat(sendAmount.value) || 0;
+            const from = fromCurrency.value;
+            const to = toCurrency.value;
+
+            if (from === to) {
+                const currencySign = to === 'INR' ? '₹' : (to === 'BDT' ? '৳' : '$');
+                resultAmount.innerText = `${currencySign}${amount.toFixed(2)}`;
+                return;
+            }
+
+            const pair = `${from}_${to}`;
+            const conversionRate = rates[pair] || 1;
+            const finalResult = amount * conversionRate;
+
+            const currencySign = to === 'INR' ? '₹' : (to === 'BDT' ? '৳' : '$');
+            resultAmount.innerText = `${currencySign}${finalResult.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+        }
+
+        // Event listeners
+        sendAmount.addEventListener('input', calculateConversion);
+        fromCurrency.addEventListener('change', calculateConversion);
+        toCurrency.addEventListener('change', calculateConversion);
+
+        // Initial trigger
+        calculateConversion();
+    </script>
+</body>
+</html>gba(255,255,255,0.15); color: #fff; border: 2px solid #fff; backdrop-filter: blur(5px); }
         .btn-outline:hover { background: #fff; color: #1e3a8a; }
         .btn-whatsapp { background: #25d366; color: #fff; display: inline-flex; align-items: center; gap: 8px; }
         .btn-whatsapp:hover { background: #20ba5a; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(37,211,102,0.35); }
